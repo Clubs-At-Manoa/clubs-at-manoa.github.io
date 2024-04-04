@@ -1,4 +1,4 @@
-# Bowfolios
+# Club Hub
 
 ## Table of contents
 
