@@ -1,5 +1,7 @@
 # Club Hub
 
+[Clubs At Manoa GitHub Organization](https://github.com/Clubs-At-Manoa)
+
 ## Table of contents
 
 * [Overview](#overview)
@@ -77,7 +79,7 @@ Our TODOs include:
 * Create a mockup for the club admin home page
 * Create a mockup of page to browse clubs by interest area(s)
 
-Milestone 1 was managed using [Clubs At Manoa GitHub Project Board M1](https://github.com/orgs/Clubs-At-Manoa/projects/1/views/1):
+Milestone 1 was managed using [Clubs At Manoa GitHub Project Board M1](https://github.com/orgs/Clubs-At-Manoa/projects/1/views/1)
 
 ![](images/M1 project.png)
 
