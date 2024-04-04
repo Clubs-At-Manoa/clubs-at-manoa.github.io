@@ -77,7 +77,7 @@ Our TODOs include:
 * Create a mockup of page to browse clubs by interest area(s)
 
 Milestone 1 was managed using [Clubs At Manoa GitHub Project Board M1](https://github.com/orgs/Clubs-At-Manoa/projects/1/views/1):
-#TODO: add screenshot of m1 project
+
 ![](images/M1 project.png)
 
 
