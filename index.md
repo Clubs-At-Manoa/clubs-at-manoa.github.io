@@ -68,6 +68,7 @@ The goal for Milestone 1 is to get our project up and running.
 
 Our TODOs include:
 
+* Add a link to our Team Contract
 * Deploying our system to digital ocean
 * Create a landing page
 * Create a login area on the landing page
@@ -80,4 +81,4 @@ Milestone 1 was managed using [Clubs At Manoa GitHub Project Board M1](https://g
 
 ![](images/M1 project.png)
 
-
+Team Contract: [Clubs At Manoa Team Contract](https://docs.google.com/document/d/12P4cILMMUF1ZTil_tapX8uh4npj-fnaBoBRHeb4GNOQ/edit#heading=h.ttlepxesoam)
