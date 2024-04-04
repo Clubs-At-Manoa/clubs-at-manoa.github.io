@@ -64,10 +64,20 @@ After implementing the basic functionality, here are ideas for more advanced fea
 
 ### Milestone 1: Mockup development
 
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
+The goal for Milestone 1 is to get our project up and running.
 
-Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.com/orgs/Clubs-At-Manoa/projects/1/views/1):
+Our TODOs include:
+
+* Deploying our system to digital ocean
+* Create a landing page
+* Create a login area on the landing page
+* Create a mockup for the user home page
+* Create a mockup for the admin home page
+* Create a mockup for the club admin home page
+* Create a mockup of page to browse clubs by interest area(s)
+
+Milestone 1 was managed using [Clubs At Manoa GitHub Project Board M1](https://github.com/orgs/Clubs-At-Manoa/projects/1/views/1):
 #TODO: add screenshot of m1 project
-![](images/project-board-1.png)
+![](images/M1 project.png)
 
 
