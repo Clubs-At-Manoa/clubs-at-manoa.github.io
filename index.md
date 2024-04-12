@@ -112,7 +112,7 @@ Milestone 1 was managed using [Clubs At Manoa GitHub Project Board M1](https://g
        src="app/public/images/Mockup_D_Admin.png" 
        class="img-thumbnail" >
   <img width="500px" 
-       src="app/public/images/Mockup_interest.png" 
+       src="app/public/images/Mockup_interest.webp" 
        class="img-thumbnail" >
 </div>
 
