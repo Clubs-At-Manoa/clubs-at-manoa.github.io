@@ -8,6 +8,7 @@
 * [Approach](#approach)
 * [Use Case Ideas](#use-case-ideas)
 * [Beyond The Basics](#beyond-the-basics)
+* [Deployment](#deployment)
 * [Milestone1](#milestone-1-mockup-development)
 
 ## Overview
@@ -63,6 +64,10 @@ After implementing the basic functionality, here are ideas for more advanced fea
 * Notify admins when club data changes, so they can review for appropriateness.
 * Provide “expiration date” for club listings (either one semester or one academic year). To retain a listing, the club admin or admin must login and click a “renew” button for the club to re-list it in the site.
 * Allow students to rate clubs.
+
+### Deployment
+
+[Clubs At Manoa deployed application via Digital Ocean](http://209.38.148.173/)
 
 ### Milestone 1: Mockup development
 
