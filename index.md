@@ -89,6 +89,32 @@ Our TODOs include:
 Milestone 1 was managed using [Clubs At Manoa GitHub Project Board M1](https://github.com/orgs/Clubs-At-Manoa/projects/2/views/1)
 
 ### Mockups
+<div class="text-center p-4">
+  <img width="500px" 
+       src="app/public/images/Mockup_D_Landing.png" 
+       class="img-thumbnail" >
+  <img width="500px" 
+       src="app/public/images/Mockup_Landing.png" 
+       class="img-thumbnail" >
+  <img width="500px" 
+       src="app/public/images/Mockup_Login.png" 
+       class="img-thumbnail" >
+  <img width="500px" 
+       src="app/public/images/Mockup_Register.png" 
+       class="img-thumbnail" >
+  <img width="500px" 
+       src="app/public/images/Mockup_D_NewUser.png" 
+       class="img-thumbnail" >
+  <img width="500px" 
+       src="app/public/images/Mockuo_D_User.png" 
+       class="img-thumbnail" >
+  <img width="500px" 
+       src="app/public/images/Mockup_D_Admin.png" 
+       class="img-thumbnail" >
+  <img width="500px" 
+       src="app/public/images/Mockup_interest.png" 
+       class="img-thumbnail" >
+</div>
 
 ### Milestone 2: Functional development
 
