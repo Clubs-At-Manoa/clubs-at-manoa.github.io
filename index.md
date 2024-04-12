@@ -10,7 +10,7 @@
 * [Beyond The Basics](#beyond-the-basics)
 * [Deployment](#deployment)
 * [Milestone1](#milestone-1-mockup-development)
-    * [Mockups](#mockups)
+* [Mockups](#mockups)
 * [Milestone2](#milestone-2-functional-development)
 
 ## Overview
@@ -93,8 +93,8 @@ Milestone 1 was managed using [Clubs At Manoa GitHub Project Board M1](https://g
 ### Milestone 2: Functional development
 
 Our TODOs include:
-* Significantly improve the functionality and quality of your application beyond M1.
-* Significantly improve your software engineering process beyond M1.
+* Significantly improve the functionality and quality of application beyond M1.
+* Significantly improve software engineering process beyond M1.
 * Four pages in addition to the Landing page should be available in the deployment.
 * At least one page in the deployment should read data from the database (i.e. from MiniMongo).
 * At least one page in the deployment should write data to the database (i.e. using a form).
