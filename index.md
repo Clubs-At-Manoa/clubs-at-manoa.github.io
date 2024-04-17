@@ -69,7 +69,7 @@ After implementing the basic functionality, here are ideas for more advanced fea
 
 ### Deployment
 
-[Clubs At Manoa deployed application via Digital Ocean](http://209.38.148.173/)
+[Clubs At Manoa deployed application via Digital Ocean](http://146.190.35.7/)
 
 ### Milestone 1: Mockup development
 
