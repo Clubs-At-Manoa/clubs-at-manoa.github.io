@@ -14,7 +14,8 @@
 * [Milestone2](#milestone-2-functional-development)
 * [Milestone3](#milestone-3-final-project)
 * [UserGuide](#userguide)
-* [TeamContract]
+* [DeveloperGuide](#developer-guide-)
+* [TeamContract](#team-contract)
 
 ## Overview
 
@@ -140,7 +141,7 @@ Our TODOs include:
 * Find at least five UH community members (not from ICS 314) to try out your system and provide feedback.
 * Implement acceptance testing
 
-Milestone 3 was managed using [Clubs At Manoa GitHub Project Board M2](https://github.com/orgs/Clubs-At-Manoa/projects/4)
+Milestone 3 was managed using [Clubs At Manoa GitHub Project Board M3](https://github.com/orgs/Clubs-At-Manoa/projects/4)
 
 ### User Guide
 
@@ -150,29 +151,39 @@ This section provides a walkthrough of the Clubs At Manoa user interface and its
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-<img width="500px" src="app/public/images/Landing_4.15.20PM.png" class="img-thumbnail" >
+<img width="500px" src="app/public/images/Landing_0423.png" class="img-thumbnail" >
 
 #### Index pages (Clubs, Profiles, Interests)
 
 Clubs At Manoa provides two public pages that present the contents of the database organized in different ways.
 
-The Clubs page shows all the current defined Clubs and their associated Interests:
+The Clubs page shows all the current defined Clubs, their information, and associated Interest:
 
-<img width="500px" src="app/public/images/Clubs_04-23 at 4.14.45PM.png" class="img-thumbnail" >
+<img width="500px" src="app/public/images/Clubs_0423.png" class="img-thumbnail" >
 
 Interests page shows all the currently defined Clubs by their Club Types, and their associated Profiles:
 
-<img width="500px" src="app/public/images/Interest_4.15.06PM.png" class="img-thumbnail" >
+<img width="500px" src="app/public/images/Interests_0423.png" class="img-thumbnail" >
 
 #### Sign in and sign up
 
 Click on the “Login” button in the upper right corner of the navbar, then select “Sign in” to go to the following page and login. You must have been previously registered with the system to use this option:
 
-<img width="500px" src="app/public/images/Login_4.23 at 4.15.51PM.png" class="img-thumbnail" >
+<img width="500px" src="app/public/images/Login_0423.png" class="img-thumbnail" >
 
 Alternatively, you can select “Sign up” to go to the following page and register as a new user:
 
-<img width="500px" src="app/public/images/RegisterAcct_4.16.03PM.png" class="img-thumbnail" >
+<img width="500px" src="app/public/images/RegisterAcct_0423.png" class="img-thumbnail" >
+
+#### Home page
+After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile.
+
+#### Profiles page
+
+The Profiles page shows all the current defined profiles and their associated Clubs.
+
+#### Filter page
+The Filter page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Clubs that match one or more of the specified Interest(s).
 
 ### Developer Guide 
 
@@ -200,6 +211,48 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 #### Application Design
 
 Bowfolios is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). 
+
+#### Data Model
+
+The Clubs At Manoa data model consists of three “primary” collections (Clubs, Profiles, and Interests), as well as one “join” Collections (ClubsInterests). To understand this design choice, consider the situation where you want to specify the Clubs associated with a Profile.
+
+Design choice: Provide a “join” collection where each document contains two fields: Profile name and Club name. Each entry indicates that there is a relationship between those two entities. Now, to find all the Projects associated with a Profile, just search this collection for all the documents that match the Profile, then extract the Club field. Going the other way is just as easy: to find all the Profiles associated with a Club, just search the collection for all documents matching the Club, then extract the Profile field. 
+
+Club At Manoa implements a Design choice to provide pair-wise relations between all three of its primary collections:
+
+<img width="500px" src="app/public/images/DataModel.png" class="img-thumbnail" >
+
+#### Initialization
+The [config](https://github.com/Clubs-At-Manoa/clubs-at-manoa.github.io/tree/main/config) directory is intended to hold settings files. The repository contains one file: [config/settings.development.json](https://github.com/Clubs-At-Manoa/clubs-at-manoa.github.io/blob/main/config/settings.development.json).
+
+This file contains default definitions for Profiles, Clubs, and Interests and the relationships between them.
+
+The settings.development.json file contains a field called “loadAssetsFile”. It is set to false, but if you change it to true, then the data in the file app/private/data.json will also be loaded. The code to do this illustrates how to initialize a system when the initial data exceeds the size limitations for the settings file.
+
+#### Quality Assurance
+
+##### ESLint
+Clubs At Manoa includes a [.eslintrc](https://github.com/Clubs-At-Manoa/clubs-at-manoa.github.io/blob/main/app/.eslintrc.js) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+
+```
+meteor npm run lint
+```
+
+Here is sample output indicating that no ESLint errors were detected:
+```
+$ meteor npm run lint
+
+> clubs-at-manoa@ lint /Users/johnfoo/github/clubs-at-manoa/clubs-at-manoa/app
+> eslint --quiet --ext .jsx --ext .js ./imports ./tests
+
+$
+```
+ESLint should run without generating any errors.
+
+It’s significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
+
+##### End to End Testing
+Clubs At Manoa uses TestCafe to provide automated end-to-end testing.
 
 ### Team Contract
 Team Contract Link [Clubs At Manoa Team Contract](https://docs.google.com/document/d/12P4cILMMUF1ZTil_tapX8uh4npj-fnaBoBRHeb4GNOQ/edit#heading=h.ttlepxesoam)
