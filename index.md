@@ -131,10 +131,10 @@ Milestone 2 was managed using [Clubs At Manoa GitHub Project Board M2](https://g
 ### Milestone 3: Final project
 
 Our TODOs include: 
-*Significantly improve the functionality of your system from Milestone M2.
-*Incorporate a significant amount of “real” data into your system. 
-*Find at least five UH community members (not from ICS 314) to try out your system and provide feedback.
-*Implement acceptance testing
+* Significantly improve the functionality of your system from Milestone M2.
+* Incorporate a significant amount of “real” data into your system. 
+* Find at least five UH community members (not from ICS 314) to try out your system and provide feedback.
+* Implement acceptance testing
 
 Milestone 3 was managed using [Clubs At Manoa GitHub Project Board M2](https://github.com/orgs/Clubs-At-Manoa/projects/4)
 
