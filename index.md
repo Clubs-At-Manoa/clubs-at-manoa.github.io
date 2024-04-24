@@ -15,6 +15,7 @@
 * [Milestone3](#milestone-3-final-project)
 * [UserGuide](#userguide)
 * [DeveloperGuide](#developer-guide-)
+* [Continuous Integration](#continuous-integration) 
 * [TeamContract](#team-contract)
 
 ## Overview
@@ -257,7 +258,7 @@ It’s significantly easier to do development with ESLint integrated directly in
 ##### End to End Testing
 Clubs At Manoa uses TestCafe to provide automated end-to-end testing.
 
-#### Continuous Integration
+### Continuous Integration
 [![ci-bowfolios](https://github.com/Clubs-At-Manoa/clubs-at-manoa/actions/workflows/ci.yml/badge.svg)](https://github.com/Clubs-At-Manoa/clubs-at-manoa/workflows/ci-bowfolios)
 
 Clubs At Manoa uses GitHub Actions to automatically run ESLint and TestCafe each time a commit is made to the default branch. You can see the results of all recent "workflows" at https://github.com/Clubs-At-Manoa/clubs-at-manoa/actions.
