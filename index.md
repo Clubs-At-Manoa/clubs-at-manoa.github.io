@@ -258,6 +258,16 @@ It’s significantly easier to do development with ESLint integrated directly in
 ##### End to End Testing
 Clubs At Manoa uses TestCafe to provide automated end-to-end testing.
 
+The Clubs At Mano end-to-end test code employs the page object model design pattern. In the [clubs-at-manoa tests/ directory](https://github.com/Clubs-At-Manoa/clubs-at-manoa/tree/main/app/tests), the file [tests.testcafe.js](https://github.com/Clubs-At-Manoa/clubs-at-manoa/blob/main/app/tests/tests.testcafe.js) contains the TestCafe test definitions. The remaining files in the directory contain “page object models” for the various pages in the system (i.e. Home, Landing, Interests, etc.) as well as one component (navbar). 
+
+To run the end-to-end tests in development mode, you must first start up a Clubs At Manoa instance by invoking ```meteor npm run start``` in one console window.
+
+Then, in another console window, start up the end-to-end tests with:
+
+```
+meteor npm run testcafe
+```
+
 ### Continuous Integration
 [![ci-bowfolios](https://github.com/Clubs-At-Manoa/clubs-at-manoa/actions/workflows/ci.yml/badge.svg)](https://github.com/Clubs-At-Manoa/clubs-at-manoa/workflows/ci-bowfolios)
 
