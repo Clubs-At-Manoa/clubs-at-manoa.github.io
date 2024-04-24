@@ -178,6 +178,9 @@ Alternatively, you can select “Sign up” to go to the following page and regi
 #### Home page
 After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile.
 
+<img width="500px" src="app/public/images/createProfile.png" class="img-thumbnail" >
+
+
 #### Profiles page
 
 The Profiles page shows all the current defined profiles and their associated Clubs.
