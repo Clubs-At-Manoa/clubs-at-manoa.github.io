@@ -12,7 +12,9 @@
 * [Milestone1](#milestone-1-mockup-development)
 * [Mockups](#mockups)
 * [Milestone2](#milestone-2-functional-development)
-* [Milestone3](#milestone-3-final-project) 
+* [Milestone3](#milestone-3-final-project)
+* [UserGuide](#userguide)
+* [TeamContract]
 
 ## Overview
 
@@ -117,6 +119,8 @@ Milestone 1 was managed using [Clubs At Manoa GitHub Project Board M1](https://g
        class="img-thumbnail" >
 </div>
 
+![](images/M1 project.png)
+
 ### Milestone 2: Functional development
 
 Our TODOs include:
@@ -138,6 +142,64 @@ Our TODOs include:
 
 Milestone 3 was managed using [Clubs At Manoa GitHub Project Board M2](https://github.com/orgs/Clubs-At-Manoa/projects/4)
 
-![](images/M1 project.png)
+### User Guide
 
-Team Contract: [Clubs At Manoa Team Contract](https://docs.google.com/document/d/12P4cILMMUF1ZTil_tapX8uh4npj-fnaBoBRHeb4GNOQ/edit#heading=h.ttlepxesoam)
+This section provides a walkthrough of the Clubs At Manoa user interface and its capabilities.
+
+#### Landing Page
+
+The landing page is presented to users when they visit the top-level URL to the site.
+
+<img width="500px" src="app/public/images/Landing_4.15.20PM.png" class="img-thumbnail" >
+
+#### Index pages (Clubs, Profiles, Interests)
+
+Clubs At Manoa provides two public pages that present the contents of the database organized in different ways.
+
+The Clubs page shows all the current defined Clubs and their associated Interests:
+
+<img width="500px" src="app/public/images/Clubs_04-23 at 4.14.45PM.png" class="img-thumbnail" >
+
+Interests page shows all the currently defined Clubs by their Club Types, and their associated Profiles:
+
+<img width="500px" src="app/public/images/Interest_4.15.06PM.png" class="img-thumbnail" >
+
+#### Sign in and sign up
+
+Click on the “Login” button in the upper right corner of the navbar, then select “Sign in” to go to the following page and login. You must have been previously registered with the system to use this option:
+
+<img width="500px" src="app/public/images/Login_4.23 at 4.15.51PM.png" class="img-thumbnail" >
+
+Alternatively, you can select “Sign up” to go to the following page and register as a new user:
+
+<img width="500px" src="app/public/images/RegisterAcct_4.16.03PM.png" class="img-thumbnail" >
+
+### Developer Guide 
+
+This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
+
+#### Installation
+First, [install Meteor](https://docs.meteor.com/install.html).
+
+Second, visit the [Clubs At Manoa application github page](https://github.com/Clubs-At-Manoa), and click the “Use this template” button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo. However you do it, download a copy of the repo to your local computer.
+
+Third, cd into the clubs-at-manoa/app directory and install libraries with:
+
+```
+$ meteor npm install
+```
+
+Fourth, run the system with:
+
+```
+$ meteor npm run start
+```
+
+If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000/).
+
+#### Application Design
+
+Bowfolios is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). 
+
+### Team Contract
+Team Contract Link [Clubs At Manoa Team Contract](https://docs.google.com/document/d/12P4cILMMUF1ZTil_tapX8uh4npj-fnaBoBRHeb4GNOQ/edit#heading=h.ttlepxesoam)
