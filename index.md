@@ -51,14 +51,14 @@ Some possible mockup pages include:
 * Landing Page
 * User home page
 * Admin home page
-* Club admin home page
+* Browse clubs
 * Browse clubs by interest area(s)
 
 ### Use case ideas
 
 Whether the following bullet points list all pages or not, the completed use case should show an end-to-end scenario of using the system.
 
-* New user goes to landing page, logs in, gets home page, sets up profile. (How do they learn how system works?)
+* New user goes to landing page, logs in, gets home page, sets up profile.
 * Admin goes to landing page, logs in, gets home page, edits site.
 * User goes to landing page, logs in, looks for clubs of interest.
 * Club admin goes into site, updates their club profile.
@@ -67,6 +67,7 @@ Whether the following bullet points list all pages or not, the completed use cas
 
 After implementing the basic functionality, here are ideas for more advanced features:
 
+* Create a recommendation area called "For You" on user's homepage, which displays clubs based on user's interests.
 * Upload club data from the CSV version of the RIO spreadsheet.
 * Notify admins when club data changes, so they can review for appropriateness.
 * Provide “expiration date” for club listings (either one semester or one academic year). To retain a listing, the club admin or admin must login and click a “renew” button for the club to re-list it in the site.
@@ -142,7 +143,7 @@ Our TODOs include:
 * Find at least five UH community members (not from ICS 314) to try out your system and provide feedback.
 * Implement acceptance testing
 
-Milestone 3 was managed using [Clubs At Manoa GitHub Project Board M3](https://github.com/orgs/Clubs-At-Manoa/projects/4)
+Milestone 3 was managed using [Clubs At Manoa GitHub Project Board M3](https://github.com/orgs/Clubs-At-Manoa/projects/4/views/1)
 
 ### User Guide
 
@@ -214,7 +215,7 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 #### Application Design
 
-Bowfolios is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). 
+CAM (Clubs At Manoa) is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). 
 
 #### Data Model
 
@@ -269,7 +270,7 @@ meteor npm run testcafe
 ```
 
 ### Continuous Integration
-[![ci-bowfolios](https://github.com/Clubs-At-Manoa/clubs-at-manoa/actions/workflows/ci.yml/badge.svg)](https://github.com/Clubs-At-Manoa/clubs-at-manoa/workflows/ci-bowfolios)
+[![ci-badge](https://github.com/Clubs-At-Manoa/cam/actions/workflows/ci.yml/badge.svg)](https://github.com/Clubs-At-Manoa/cam/actions/workflows/ci.yml)
 
 Clubs At Manoa uses GitHub Actions to automatically run ESLint and TestCafe each time a commit is made to the default branch. You can see the results of all recent "workflows" at https://github.com/Clubs-At-Manoa/clubs-at-manoa/actions.
 
