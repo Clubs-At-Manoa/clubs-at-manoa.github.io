@@ -16,7 +16,9 @@
 * [UserGuide](#userguide)
 * [DeveloperGuide](#developer-guide-)
 * [Continuous Integration](#continuous-integration) 
+* [CommunityFeedback](#Community-feedback)
 * [TeamContract](#team-contract)
+
 
 ## Overview
 
@@ -46,11 +48,11 @@ Admins can monitor the site for inappropriate content, and create new categories
 
 Note: if you choose this idea for your final project, you cannot name it “Club Hub”. Come up with a different name for your final project.
 
-Some possible mockup pages include:
+Mockup pages include:
 
 * Landing Page
-* User home page
-* Admin home page
+* Home page
+* Profile page
 * Browse clubs
 * Browse clubs by interest area(s)
 
@@ -97,28 +99,28 @@ Milestone 1 was managed using [Clubs At Manoa GitHub Project Board M1](https://g
 ### Mockups
 <div class="text-center p-4">
   <img width="500px" 
-       src="app/public/images/Mockup_D_Landing.png" 
+       src="app/public/images/Landing58.png" 
        class="img-thumbnail" >
   <img width="500px" 
-       src="app/public/images/Mockup_Landing.png" 
+       src="app/public/images/LoginAccount.png" 
        class="img-thumbnail" >
   <img width="500px" 
-       src="app/public/images/Mockup_Login.png" 
+       src="app/public/images/RegisterAccount.png" 
        class="img-thumbnail" >
   <img width="500px" 
-       src="app/public/images/Mockup_Register.png" 
+       src="app/public/images/homepage.png" 
        class="img-thumbnail" >
   <img width="500px" 
-       src="app/public/images/Mockup_D_NewUser.png" 
+       src="app/public/images/YourProfile.png" 
        class="img-thumbnail" >
-  <img width="500px" 
-       src="app/public/images/Mockuo_D_User.png" 
+<img width="500px" 
+       src="app/public/images/clubs.png" 
        class="img-thumbnail" >
-  <img width="500px" 
-       src="app/public/images/Mockup_D_Admin.png" 
+<img width="500px" 
+       src="app/public/images/addclub.png" 
        class="img-thumbnail" >
-  <img width="500px" 
-       src="app/public/images/Mockup_interest.webp" 
+<img width="500px" 
+       src="app/public/images/interest1.png" 
        class="img-thumbnail" >
 </div>
 
@@ -153,7 +155,7 @@ This section provides a walkthrough of the Clubs At Manoa user interface and its
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-<img width="500px" src="app/public/images/Landing_0423.png" class="img-thumbnail" >
+<img width="500px" src="app/public/images/Landing58.png" class="img-thumbnail" >
 
 #### Index pages (Clubs, Profiles, Interests)
 
@@ -161,34 +163,33 @@ Clubs At Manoa provides two public pages that present the contents of the databa
 
 The Clubs page shows all the current defined Clubs, their information, and associated Interest:
 
-<img width="500px" src="app/public/images/Clubs_0423.png" class="img-thumbnail" >
+<img width="500px" src="app/public/images/clubs.png" class="img-thumbnail" >
 
 Interests page shows all the currently defined Clubs by their Club Types, and their associated Profiles:
 
-<img width="500px" src="app/public/images/Interests_0423.png" class="img-thumbnail" >
+<img width="500px" src="app/public/images/interest.png" class="img-thumbnail" >
 
 #### Sign in and sign up
 
 Click on the “Login” button in the upper right corner of the navbar, then select “Sign in” to go to the following page and login. You must have been previously registered with the system to use this option:
 
-<img width="500px" src="app/public/images/Login_0423.png" class="img-thumbnail" >
+<img width="500px" src="app/public/images/LoginAccount.png" class="img-thumbnail" >
 
 Alternatively, you can select “Sign up” to go to the following page and register as a new user:
 
-<img width="500px" src="app/public/images/RegisterAcct_0423.png" class="img-thumbnail" >
+<img width="500px" src="app/public/images/RegisterAccount.png" class="img-thumbnail" >
 
 #### Home page
-After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile.
+After logging in, you are taken to the home page, which presents information from Student Life and Development website.
 
-<img width="500px" src="app/public/images/createProfile.png" class="img-thumbnail" >
+<img width="500px" src="app/public/images/homepage.png" class="img-thumbnail" >
 
 
-#### Profiles page
+#### Profile page
 
-The Profiles page shows all the current defined profiles and their associated Clubs.
+The Profile page shows the current user's profile and their information and associated interests.
 
-#### Filter page
-The Filter page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Clubs that match one or more of the specified Interest(s).
+<img width="500px" src="app/public/images/YourProfile.png" class="img-thumbnail" >
 
 ### Developer Guide 
 
@@ -276,6 +277,16 @@ Clubs At Manoa uses GitHub Actions to automatically run ESLint and TestCafe each
 
 The workflow definition file is quite simple and is located at .github/workflows/ci.yml.
 
+### Community Feedback
+"A step up from using a CSV file" -Jonathan P. 
+
+"It has potential and is on its way to becoming a useful app for UHM." -Cheryl T.
+
+"The app offers a user-friendly interface and a variety of features, making it suitable for a wide range of users." - Cole C.
+
+"This app is great for students to find clubs and connect with one another" - Travis K. 
+
+"This app's simplicity lays a strong foundation for potential growth. With continued development and updates, it has the potential to evolve into something great." - Shayna F. 
 
 ### Team Contract
 Team Contract Link [Clubs At Manoa Team Contract](https://docs.google.com/document/d/12P4cILMMUF1ZTil_tapX8uh4npj-fnaBoBRHeb4GNOQ/edit#heading=h.ttlepxesoam)
