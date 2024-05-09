@@ -1,4 +1,4 @@
-[![ci-cam](https://github.com/Clubs-At-Manoa/cam/actions/workflows/ci.yml/badge.svg)](https://github.com/Clubs-At-Manoa/cam-react/actions/workflows/ci.yml)
+[![ci-badge](https://github.com/Clubs-At-Manoa/cam/actions/workflows/ci.yml/badge.svg)](https://github.com/Clubs-At-Manoa/cam/actions/workflows/ci.yml)
 
 For details, please see [https://clubs-at-manoa.github.io/](https://clubs-at-manoa.github.io/).
 
