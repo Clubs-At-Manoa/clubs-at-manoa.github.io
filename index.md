@@ -16,7 +16,7 @@
 * [UserGuide](#userguide)
 * [DeveloperGuide](#developer-guide-)
 * [Continuous Integration](#continuous-integration) 
-* [CommunityFeedback](#Community-feedback)
+* [Community Feedback](#Community-feedback)
 * [TeamContract](#team-contract)
 
 
