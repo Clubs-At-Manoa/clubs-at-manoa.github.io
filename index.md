@@ -58,8 +58,6 @@ Mockup pages include:
 
 ### Use case ideas
 
-Whether the following bullet points list all pages or not, the completed use case should show an end-to-end scenario of using the system.
-
 * New user goes to landing page, logs in, gets home page, sets up profile.
 * Admin goes to landing page, logs in, gets home page, edits site.
 * User goes to landing page, logs in, looks for clubs of interest.
